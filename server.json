@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/dfe-mcp",
+  "title": "DF-e",
+  "description": "Brazilian SEFAZ e-invoices (NF-e, CT-e) issued against your company. A1 cert, DANFE PDF.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/dfe-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_dfe"
+    }
+  ]
+}

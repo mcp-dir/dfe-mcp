@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Logo do DF-e (mcp_dfe).
+
+  É NOSSO, e aqui isso não é preferência: o serviço por trás é a SEFAZ / Receita
+  Federal, e brasão de órgão público num ícone de produto pago sugere vínculo
+  oficial que não existe. O emoji de nota fiscal sobre o slate da casa diz o que
+  o MCP faz sem tomar emprestada autoridade de ninguém.
+
+  Espelhado em s3://mcp-ai-public-assets/logos/dfe.svg, que é o que o `logo_url`
+  do seed aponta: a vitrine renderiza <img src={logo_url}> no browser do cliente,
+  então o arquivo precisa ser público e servido por nós.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="DF-e">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <text
+    x="256"
+    y="256"
+    font-size="272"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji','Twemoji Mozilla',sans-serif"
+  >🧾</text>
+</svg>
